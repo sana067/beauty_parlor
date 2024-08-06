@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:internship/Screens/create_cus_account.dart';
 import 'package:internship/Screens/detail_screen.dart';
+import 'package:internship/Screens/listinScreen.dart';
 import 'package:internship/Screens/login.dart';
 import 'package:internship/Screens/splash_screen.dart';
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: BeautyParlourScreen(),
+      home: ListingScreen(),
     );
   }
 }
